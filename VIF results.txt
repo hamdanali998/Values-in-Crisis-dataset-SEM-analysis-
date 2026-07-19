@@ -1,0 +1,6 @@
+mentalhealth_score self_transcendence_score       conservation_score 
+                1.043144                 2.413466                 2.145390 
+   openness_change_score   self_enhancement_score              age_grouped 
+                1.956975                 1.628346                 1.130566 
+                  gender 
+                1.040333 

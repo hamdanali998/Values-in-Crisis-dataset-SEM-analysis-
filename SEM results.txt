@@ -1,0 +1,184 @@
+lavaan 0.6-21 ended normally after 96 iterations
+
+  Estimator                                       DWLS
+  Optimization method                           NLMINB
+  Number of model parameters                        70
+
+  Number of observations                         34923
+
+Model Test User Model:
+                                               Standard      Scaled
+  Test Statistic                              46918.811   47223.109
+  Degrees of freedom                                308         308
+  P-value (Unknown)                                  NA       0.000
+  Scaling correction factor                                   0.996
+  Shift parameter                                           122.659
+    simple second-order correction                                 
+
+Model Test Baseline Model:
+
+  Test statistic                            601452.016  199546.724
+  Degrees of freedom                               350         350
+  P-value                                           NA       0.000
+  Scaling correction factor                                  3.018
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.922       0.764
+  Tucker-Lewis Index (TLI)                       0.912       0.732
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.922
+  Robust Tucker-Lewis Index (TLI)                            0.912
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.066       0.066
+  90 Percent confidence interval - lower         0.065       0.066
+  90 Percent confidence interval - upper         0.066       0.067
+  P-value H_0: RMSEA <= 0.050                    0.000       0.000
+  P-value H_0: RMSEA >= 0.080                    0.000       0.000
+                                                                  
+  Robust RMSEA                                               0.066
+  90 Percent confidence interval - lower                     0.065
+  90 Percent confidence interval - upper                     0.066
+  P-value H_0: Robust RMSEA <= 0.050                         0.000
+  P-value H_0: Robust RMSEA >= 0.080                         0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.063       0.063
+
+Parameter Estimates:
+
+  Standard errors                           Robust.sem
+  Information                                 Expected
+  Information saturated (h1) model        Unstructured
+
+Latent Variables:
+                        Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  mentalhealth =~                                                            
+    anxious                1.000                               0.733    0.778
+    worry                  0.982    0.006  154.937    0.000    0.719    0.776
+    depressed              1.073    0.007  161.636    0.000    0.786    0.860
+    low_interest           0.990    0.007  137.377    0.000    0.725    0.765
+    lonely                 0.921    0.008  117.133    0.000    0.675    0.721
+  self_transcendence =~                                                      
+    equlty_schwrtz         1.000                               0.762    0.588
+    crng_thrs_schw         1.225    0.011  109.411    0.000    0.933    0.744
+    hlpng_scty_sch         1.027    0.012   86.978    0.000    0.782    0.575
+    scl_gd_schwrtz         1.236    0.011  110.668    0.000    0.941    0.760
+    envrnmnt_schwr         1.152    0.011  108.972    0.000    0.877    0.690
+  conservation =~                                                            
+    safety_schwrtz         1.000                               0.708    0.552
+    tradtn_schwrtz         1.146    0.014   81.793    0.000    0.811    0.543
+    loylty_schwrtz         1.262    0.013   94.103    0.000    0.893    0.700
+    respct_schwrtz         1.220    0.014   84.756    0.000    0.864    0.605
+    prpr_bhvr_schw         1.001    0.011   89.274    0.000    0.709    0.539
+  openness_change =~                                                         
+    crtvty_schwrtz         1.000                               0.892    0.654
+    indpndnc_schwr         0.851    0.009   91.243    0.000    0.759    0.592
+    advntr_schwrtz         0.985    0.011   92.441    0.000    0.879    0.588
+    novlty_schwrtz         1.131    0.010  112.874    0.000    1.009    0.712
+  self_enhancement =~                                                        
+    wealth_schwrtz         1.000                               0.697    0.462
+    succss_schwrtz         1.759    0.025   70.469    0.000    1.226    0.857
+    achvmnt_schwrt         1.580    0.022   71.291    0.000    1.101    0.771
+  wellbeing =~                                                               
+    health_stsfctn         1.000                               1.651    0.683
+    social_stsfctn         1.037    0.013   78.269    0.000    1.712    0.730
+    life_satisfctn         1.160    0.014   81.586    0.000    1.915    0.827
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  wellbeing ~                                                           
+    mentalhealth     -0.817    0.020  -41.826    0.000   -0.362   -0.362
+    self_trnscndnc   -0.321    0.226   -1.418    0.156   -0.148   -0.148
+    conservation     -0.164    0.210   -0.782    0.434   -0.071   -0.071
+    openness_chang   -0.347    0.108   -3.195    0.001   -0.187   -0.187
+    self_enhancmnt    0.309    0.121    2.554    0.011    0.130    0.130
+    age_grouped       0.005    0.004    1.511    0.131    0.003    0.009
+    gender           -0.031    0.020   -1.561    0.119   -0.019   -0.009
+
+Covariances:
+                        Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  self_transcendence ~~                                                      
+    conservation           0.482    0.008   57.491    0.000    0.894    0.894
+    openness_chang         0.546    0.009   64.049    0.000    0.803    0.803
+    self_enhancmnt         0.251    0.006   41.258    0.000    0.472    0.472
+  conservation ~~                                                            
+    openness_chang         0.433    0.008   56.377    0.000    0.686    0.686
+    self_enhancmnt         0.330    0.007   47.014    0.000    0.668    0.668
+  openness_change ~~                                                         
+    self_enhancmnt         0.417    0.008   50.388    0.000    0.671    0.671
+  mentalhealth ~~                                                            
+    self_trnscndnc        -0.034    0.004   -8.718    0.000   -0.060   -0.060
+    conservation          -0.027    0.004   -7.089    0.000   -0.051   -0.051
+    openness_chang        -0.033    0.005   -7.226    0.000   -0.051   -0.051
+    self_enhancmnt        -0.054    0.003  -15.402    0.000   -0.105   -0.105
+  age_grouped ~~                                                             
+    gender                -0.079    0.008  -10.564    0.000   -0.079   -0.057
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .anxious           0.351    0.005   74.627    0.000    0.351    0.395
+   .worry             0.343    0.005   66.477    0.000    0.343    0.398
+   .depressed         0.217    0.004   59.566    0.000    0.217    0.260
+   .low_interest      0.373    0.005   72.050    0.000    0.373    0.415
+   .lonely            0.421    0.005   81.311    0.000    0.421    0.480
+   .equlty_schwrtz    1.097    0.011   97.914    0.000    1.097    0.654
+   .crng_thrs_schw    0.701    0.008   84.627    0.000    0.701    0.446
+   .hlpng_scty_sch    1.241    0.012  105.929    0.000    1.241    0.670
+   .scl_gd_schwrtz    0.648    0.008   85.943    0.000    0.648    0.423
+   .envrnmnt_schwr    0.846    0.009   94.018    0.000    0.846    0.524
+   .safety_schwrtz    1.144    0.011  101.714    0.000    1.144    0.695
+   .tradtn_schwrtz    1.572    0.013  118.398    0.000    1.572    0.705
+   .loylty_schwrtz    0.831    0.009   87.528    0.000    0.831    0.510
+   .respct_schwrtz    1.295    0.012  109.276    0.000    1.295    0.635
+   .prpr_bhvr_schw    1.227    0.012  105.003    0.000    1.227    0.710
+   .crtvty_schwrtz    1.067    0.012   90.309    0.000    1.067    0.573
+   .indpndnc_schwr    1.067    0.011   95.636    0.000    1.067    0.649
+   .advntr_schwrtz    1.460    0.012  120.172    0.000    1.460    0.654
+   .novlty_schwrtz    0.992    0.011   89.842    0.000    0.992    0.493
+   .wealth_schwrtz    1.789    0.014  131.875    0.000    1.789    0.786
+   .succss_schwrtz    0.544    0.014   39.674    0.000    0.544    0.266
+   .achvmnt_schwrt    0.826    0.013   63.239    0.000    0.826    0.405
+   .health_stsfctn    3.121    0.049   63.087    0.000    3.121    0.534
+   .social_stsfctn    2.569    0.045   56.934    0.000    2.569    0.467
+   .life_satisfctn    1.695    0.047   35.877    0.000    1.695    0.316
+    mentalhealth      0.537    0.007   80.494    0.000    1.000    1.000
+    self_trnscndnc    0.580    0.011   52.983    0.000    1.000    1.000
+    conservation      0.501    0.010   48.750    0.000    1.000    1.000
+    openness_chang    0.796    0.013   63.097    0.000    1.000    1.000
+    self_enhancmnt    0.486    0.013   37.737    0.000    1.000    1.000
+   .wellbeing         2.121    0.042   50.158    0.000    0.778    0.778
+    age_grouped       7.929    0.041  191.504    0.000    7.929    1.000
+    gender            0.249    0.000 1344.630    0.000    0.249    1.000
+
+R-Square:
+                   Estimate
+    anxious           0.605
+    worry             0.602
+    depressed         0.740
+    low_interest      0.585
+    lonely            0.520
+    equlty_schwrtz    0.346
+    crng_thrs_schw    0.554
+    hlpng_scty_sch    0.330
+    scl_gd_schwrtz    0.577
+    envrnmnt_schwr    0.476
+    safety_schwrtz    0.305
+    tradtn_schwrtz    0.295
+    loylty_schwrtz    0.490
+    respct_schwrtz    0.365
+    prpr_bhvr_schw    0.290
+    crtvty_schwrtz    0.427
+    indpndnc_schwr    0.351
+    advntr_schwrtz    0.346
+    novlty_schwrtz    0.507
+    wealth_schwrtz    0.214
+    succss_schwrtz    0.734
+    achvmnt_schwrt    0.595
+    health_stsfctn    0.466
+    social_stsfctn    0.533
+    life_satisfctn    0.684
+    wellbeing         0.222

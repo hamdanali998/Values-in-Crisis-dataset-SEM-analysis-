@@ -1,0 +1,60 @@
+$mentalhealth
+
+Composite `mentalhealth` is composed of observed variables:
+	anxious, worry, depressed, low_interest, lonely
+True-score variance is represented by common factor(s):
+	mentalhealth
+Total variance of composite `mentalhealth` determined from the unrestricted model.
+The proportion attributable to "true" scores is its model-based estimate of reliability ("omega"):
+
+[1] 0.885
+
+$self_transcendence
+
+Composite `self_transcendence` is composed of observed variables:
+	equality_schwartz, caring_others_schwartz, helping_society_schwartz, social_good_schwartz, environment_schwartz
+True-score variance is represented by common factor(s):
+	self_transcendence
+Total variance of composite `self_transcendence` determined from the unrestricted model.
+The proportion attributable to "true" scores is its model-based estimate of reliability ("omega"):
+
+[1] 0.81
+
+$conservation
+
+Composite `conservation` is composed of observed variables:
+	safety_schwartz, tradition_schwartz, loyalty_schwartz, respect_schwartz, proper_behavior_schwartz
+True-score variance is represented by common factor(s):
+	conservation
+Total variance of composite `conservation` determined from the unrestricted model.
+The proportion attributable to "true" scores is its model-based estimate of reliability ("omega"):
+
+[1] 0.717
+
+$openness_change
+
+Composite `openness_change` is composed of observed variables:
+	creativity_schwartz, independence_schwartz, adventure_schwartz, novelty_schwartz
+True-score variance is represented by common factor(s):
+	openness_change
+Total variance of composite `openness_change` determined from the unrestricted model.
+The proportion attributable to "true" scores is its model-based estimate of reliability ("omega"):
+
+[1] 0.733
+
+$self_enhancement
+
+Composite `self_enhancement` is composed of observed variables:
+	wealth_schwartz, success_schwartz, achievement_schwartz
+True-score variance is represented by common factor(s):
+	self_enhancement
+Total variance of composite `self_enhancement` determined from the unrestricted model.
+The proportion attributable to "true" scores is its model-based estimate of reliability ("omega"):
+
+[1] 0.728
+
+==============================
+
+AVE
+      mentalhealth self_transcendence       conservation    openness_change   self_enhancement 
+             0.609              0.450              0.346              0.409              0.503 
