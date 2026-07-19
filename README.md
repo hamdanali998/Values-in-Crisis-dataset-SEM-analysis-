@@ -125,11 +125,6 @@ https://data.aussda.at/dataset.xhtml?persistentId=doi:10.11587/LIHK1L
 
 ---
 
-## Citation
-
-If you use this repository, please cite the corresponding study once published.
-
----
 
 ## License
 
